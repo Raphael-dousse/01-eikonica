@@ -1,0 +1,33 @@
+#background-video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.title-header {
+  margin: 430px 20px 260px 195px;
+}
+
+.title-header img {
+  height: 200px;
+}
+
+.title-header h1 {
+  font-family: Scandia-Light;
+  font-size: 150px;
+  color: #ffffff;
+  letter-spacing: -4.38px;
+  margin-top: 10px;
+}
+
+@media (max-width: 2080px) {
+  .title-header h1 {
+    font-size: 90px;
+  }
+}
