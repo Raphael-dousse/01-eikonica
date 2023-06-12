@@ -12,9 +12,8 @@
 
 .title-header {
   margin: 430px 20px 260px 195px;
-  padding: 45px 50px;
-  border-left: solid #00fbff 5px;
-  border-bottom: solid #00fbff 5px;
+  padding: 1px 50px;
+  border-left: solid #00fbff 3px;
 }
 
 @media (max-width: 2080px) {
@@ -39,6 +38,19 @@
   color: #ffffff;
   letter-spacing: -4.38px;
   margin-top: 10px;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  cursor: none;
+}
+
+.title-header h1 {
+  text-shadow: 0px 0px #00fbff, 0px 0px #00fbff, 0px 0px #00fbff,
+    0px 0px #00fbff;
+
+  &:hover {
+    text-shadow: -1px -1px #00fbff, -2px -2px #00fbff, -3px -3px #00fbff,
+      -4px -4px #00fbff;
+  }
 }
 
 @media (max-width: 2080px) {
