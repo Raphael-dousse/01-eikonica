@@ -12,15 +12,30 @@
 
 .title-header {
   margin: 430px 20px 260px 195px;
+  padding: 45px 50px;
+  border-left: solid #00fbff 5px;
+  border-bottom: solid #00fbff 5px;
+}
+
+@media (max-width: 2080px) {
+  .title-header {
+    margin: 330px 20px 260px 100px;
+  }
 }
 
 .title-header img {
-  height: 200px;
+  height: 250px;
+}
+
+@media (max-width: 2080px) {
+  .title-header img {
+    height: 200px;
+  }
 }
 
 .title-header h1 {
   font-family: Scandia-Light;
-  font-size: 150px;
+  font-size: 170px;
   color: #ffffff;
   letter-spacing: -4.38px;
   margin-top: 10px;
@@ -28,6 +43,6 @@
 
 @media (max-width: 2080px) {
   .title-header h1 {
-    font-size: 90px;
+    font-size: 120px;
   }
 }
