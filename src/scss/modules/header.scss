@@ -10,6 +10,14 @@
   z-index: -1;
 }
 
+header {
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
 .title-header {
   margin: 430px 20px 260px 195px;
   padding: 1px 50px;
