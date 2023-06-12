@@ -2,9 +2,6 @@
 // css variables
 // ==================================== */
 
-:root {
-}
-
 /* ====================================
 // reset rules
 // ==================================== */
@@ -39,6 +36,18 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+}
+
+p {
+  font-family: scandia-web, sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+}
+
+h1 {
+  font-family: scandia-web, sans-serif;
+  font-weight: 400;
+  font-size: 95px;
 }
 
 /* ====================================
