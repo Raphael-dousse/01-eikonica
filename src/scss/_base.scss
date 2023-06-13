@@ -77,3 +77,8 @@ h1 {
   transform: translateY(0);
   opacity: 1;
 }
+
+::selection {
+  color: black;
+  background: #00fbff;
+}

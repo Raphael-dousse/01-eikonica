@@ -5,7 +5,7 @@
 }
 
 .portfolio {
-  margin-bottom: 250px;
+  margin-bottom: 600px;
   padding: 20px 0 50px;
   cursor: none;
 }
@@ -16,6 +16,12 @@
   margin-top: 50px;
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
+}
+
+@media (max-width: 2080px) {
+  .portfolio img {
+    height: 400px;
+  }
 }
 
 .port-1:hover {
