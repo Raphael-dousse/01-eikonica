@@ -7,16 +7,37 @@
 .portfolio {
   margin-bottom: 250px;
   padding: 20px 0 50px;
+  cursor: none;
 }
 
 .portfolio img {
-  border-radius: 60px;
+  border-radius: 260px;
   height: 550px;
   margin-top: 50px;
-  transition-duration: 0.9s;
+  transition-duration: 0.2s;
   transition-timing-function: ease-out;
 }
 
-.portfolio img:hover {
-  cursor: none;
+.port-1:hover {
+  box-shadow: 0 2px 20px 3px rgba(255, 209, 0, 0.5);
+}
+
+.port-2:hover {
+  box-shadow: 0 2px 20px 3px rgba(255, 255, 255, 0.5);
+}
+
+.port-3:hover {
+  box-shadow: 0 2px 20px 3px rgba(255, 98, 0, 0.5);
+}
+
+.port-4:hover {
+  box-shadow: 0 2px 20px 3px rgba(255, 91, 91, 0.5);
+}
+
+.port-5:hover {
+  box-shadow: 0 2px 20px 3px rgba(82, 0, 255, 0.5);
+}
+
+.port-6:hover {
+  box-shadow: 0 2px 20px 3px rgba(178, 0, 255, 0.5);
 }
