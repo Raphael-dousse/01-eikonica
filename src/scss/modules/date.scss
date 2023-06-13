@@ -1,0 +1,25 @@
+.date {
+  margin: 300px 0 700px 0;
+}
+
+.date h1 {
+  font-size: 240px;
+  letter-spacing: -6.43px;
+  line-height: 240px;
+}
+
+.date p {
+  padding-left: 15px;
+  font-size: 40px;
+}
+
+@media (max-width: 2080px) {
+  .date h1 {
+    font-size: 190px;
+    line-height: 190px;
+  }
+
+  .date p {
+    font-size: 26px;
+  }
+}
