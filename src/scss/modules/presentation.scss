@@ -3,5 +3,16 @@
 }
 
 .text-presentation img {
-  height: 500px;
+  width: 900px;
+}
+
+.text-presentation p {
+  margin-top: 300px;
+}
+
+@media (max-width: 2080px) {
+  .text-presentation p {
+    margin-top: 150px;
+    font-size: 22px;
+  }
 }
