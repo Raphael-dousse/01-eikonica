@@ -7,7 +7,18 @@
   font-size: 160px;
 }
 
+.concert-text {
+  padding: 134px 360px 135px 119px;
+  background-image: url(../img/kinetic.webp);
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+}
+
 .concert-text p {
+  font-family: Scandia-Regular;
+  font-size: 36px;
+  letter-spacing: -1.58px;
 }
 
 // filter: blur(20px);
