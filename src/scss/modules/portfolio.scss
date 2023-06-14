@@ -10,6 +10,12 @@
   cursor: none;
 }
 
+@media (max-width: 2080px) {
+  .portfolio {
+    margin-bottom: 300px;
+  }
+}
+
 .portfolio img {
   border-radius: 260px;
   height: 550px;

@@ -27,6 +27,12 @@
   opacity: 90%;
 }
 
+@media (max-width: 2080px) {
+  .concert a {
+    font-size: 55px;
+  }
+}
+
 .glitch {
   color: white;
   animation: glitch 1040ms infinite;
@@ -96,11 +102,17 @@
 .concert-text {
   position: absolute;
   left: 20%;
-  top: 45%;
+  top: 30%;
 }
 
 .concert-text p {
   font-family: Scandia-Regular;
   font-size: 65px;
   letter-spacing: -1.58px;
+}
+
+@media (max-width: 2080px) {
+  .concert-text p {
+    font-size: 55px;
+  }
 }
