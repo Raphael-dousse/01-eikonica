@@ -1,0 +1,10 @@
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  mix-blend-mode: difference;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}

@@ -16,6 +16,12 @@
 .workshops img {
   border-radius: 30px;
   height: 280px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+.workshops img:hover {
+  opacity: 30%;
 }
 
 .workshop-content {
