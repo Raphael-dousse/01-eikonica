@@ -21,7 +21,8 @@
 }
 
 .workshops img:hover {
-  opacity: 30%;
+  opacity: #c6f2ed 30%;
+  cursor: e-resize;
 }
 
 .workshop-content {
@@ -58,6 +59,7 @@ svg {
   position: relative;
   text-decoration: none;
   line-height: 1;
+  cursor: none;
   .btn-content {
     font-family: Scandia-Regular;
     font-size: 30px;
