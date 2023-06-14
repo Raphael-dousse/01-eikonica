@@ -1,24 +1,29 @@
-// .concert {
-
-// }
+.concert p {
+  margin-bottom: 30px;
+  position: absolute;
+}
 
 .concert h1 {
   margin: 325px 0 125px 125px;
   font-size: 160px;
 }
 
+.concert-image-content {
+  position: relative;
+}
+
+.concert-image-content img {
+  filter: blur(20px);
+}
+
 .concert-text {
-  padding: 134px 360px 135px 119px;
-  background-image: url(../img/kinetic.webp);
-  background-position: center;
-  background-size: cover;
-  color: #ffffff;
+  position: absolute;
+  left: 20%;
+  top: 45%;
 }
 
 .concert-text p {
   font-family: Scandia-Regular;
-  font-size: 36px;
+  font-size: 46px;
   letter-spacing: -1.58px;
 }
-
-// filter: blur(20px);
