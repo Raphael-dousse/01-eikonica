@@ -8,6 +8,83 @@
   font-size: 160px;
 }
 
+@media (max-width: 2080px) {
+  .concert h1 {
+    margin: 125px 0 125px 125px;
+  }
+}
+
+.concert a {
+  font-family: Scandia-Bold;
+  font-size: 65px;
+  letter-spacing: -1.58px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+.concert a:hover {
+  color: #00fbff;
+  opacity: 90%;
+}
+
+.glitch {
+  color: white;
+  animation: glitch 1040ms infinite;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5rem;
+  text-shadow: 0.05em 0 0 #c6f2ed, -0.025em -0.05em 0 #163151,
+    0.025em 0.05em 0 #00fbff;
+}
+.glitch2Bedore {
+  font-size: 6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5rem;
+  color: white;
+}
+@keyframes glitch {
+  0% {
+    text-shadow: 0.05em 0 0 #c6f2ed, -0.025em -0.05em 0 #163151,
+      0.025em 0.05em 0 #00fbff;
+  }
+  14% {
+    text-shadow: 0.05em 0 0 #c6f2ed, -0.025em -0.05em 0 #163151,
+      0.025em 0.05em 0 #00fbff;
+  }
+  15% {
+    text-shadow: -0.05em -0.025em 0 #c6f2ed, 0.025em 0.025em 0 #163151,
+      -0.05em -0.05em 0 #00fbff;
+  }
+  49% {
+    text-shadow: -0.05em -0.025em 0 #c6f2ed, 0.025em 0.025em 0 #163151,
+      -0.05em -0.05em 0 #00fbff;
+  }
+  50% {
+    text-shadow: 0.025em 0.05em 0 #c6f2ed, 0.05em 0 0 #163151,
+      0 -0.05em 0 #00fbff;
+  }
+  99% {
+    text-shadow: 0.025em 0.05em 0 #c6f2ed, 0.05em 0 0 #163151,
+      0 -0.05em 0 #00fbff;
+  }
+  100% {
+    text-shadow: -0.025em 0 0 #c6f2ed, -0.025em -0.025em 0 #163151,
+      -0.025em -0.05em 0 #00fbff;
+  }
+}
+.containerGlitch {
+  margin-top: 40px;
+  width: 100%;
+  max-width: 1175px;
+  height: auto;
+}
+
 .concert-image-content {
   position: relative;
 }
@@ -24,6 +101,6 @@
 
 .concert-text p {
   font-family: Scandia-Regular;
-  font-size: 46px;
+  font-size: 65px;
   letter-spacing: -1.58px;
 }
