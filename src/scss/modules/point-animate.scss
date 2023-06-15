@@ -1,0 +1,73 @@
+.taxi {
+  height: 300px;
+  width: 100%;
+  margin: 325px 0 0 0;
+  font-size: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+  top: calc(50% - 3 * 50px);
+}
+.load1 {
+  top: calc(50% - 2 * 50px);
+  left: calc(50% - 9 * 25px);
+}
+.load2 {
+  top: calc(50% - 50px);
+  left: calc(50% - 9 * 25px);
+}
+
+.a {
+  background: #c6f2ed;
+  animation-name: point;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  z-index: 10;
+  border-radius: 90px;
+}
+.b,
+.a {
+  display: inline-block;
+  height: 50px;
+  width: 300px;
+}
+
+.a:nth-of-type(1) {
+  animation-delay: 0;
+}
+.a:nth-of-type(2) {
+  animation-delay: 0.15s;
+}
+.a:nth-of-type(3) {
+  animation-delay: 0.3s;
+}
+.a:nth-of-type(4) {
+  animation-delay: 0.45s;
+}
+.a:nth-of-type(5) {
+  animation-delay: 0.6s;
+}
+.a:nth-of-type(6) {
+  animation-delay: 0.75s;
+}
+.a:nth-of-type(7) {
+  animation-delay: 0.9s;
+}
+.a:nth-of-type(8) {
+  animation-delay: 1.05s;
+}
+.a:nth-of-type(9) {
+  animation-delay: 1.2s;
+}
+
+@keyframes point {
+  from {
+    background: #c6f2ed;
+  }
+  50% {
+    background: #000;
+  }
+  to {
+    background: #00fbff;
+  }
+}
