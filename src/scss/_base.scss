@@ -70,21 +70,28 @@ h2 {
   font-size: 50px;
   letter-spacing: -1.58px;
 }
+
+h4 {
+  font-family: scandia-web, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+}
 /* ====================================
 // base rules
 // ==================================== */
 
-// .row + .row {
-//   margin-top: 16px;
-// }
+.row + .row {
+  margin-top: 16px;
+}
 
-// .row > .col,
-// .row > [class^="col-"] {
-//   padding-top: 12px;
-//   padding-bottom: 12px;
-//   background-color: rgba(86, 61, 124, 0.15);
-//   border: 1px solid rgba(86, 61, 124, 0.2);
-// }
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
 
 .reveal {
   transform: translateY(150px);
