@@ -1,3 +1,25 @@
 .expo {
   margin: 0 120px 0 120px;
 }
+
+.expo p {
+  font-family: Scandia-Light;
+  font-size: 40px;
+  letter-spacing: -1.09px;
+}
+
+.expo-text-content {
+  margin-top: 180px;
+}
+
+.expo-photo img {
+  height: 550px;
+  margin: 30px;
+  gap: 40px;
+  border-radius: 25px;
+}
+
+.expo-photo {
+  margin: 100px 0 0 180px;
+  padding: 10px;
+}
