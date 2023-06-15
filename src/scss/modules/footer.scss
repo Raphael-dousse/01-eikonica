@@ -1,5 +1,6 @@
 footer {
   margin-top: 225px;
+  padding: 30px;
 }
 
 footer a {
@@ -9,7 +10,7 @@ footer a {
 .footer-content {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 150px;
 }
 
@@ -19,7 +20,7 @@ footer a {
   font-style: normal;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 150px 0 150px 0;
   opacity: 0.5;
   text-align: center;
