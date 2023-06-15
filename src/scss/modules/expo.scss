@@ -15,11 +15,16 @@
 .expo-photo img {
   height: 550px;
   margin: 30px;
-  gap: 40px;
   border-radius: 25px;
   filter: blur(50px);
   transition-duration: 0.3s;
   transition-timing-function: ease-out;
+}
+
+@media (max-width: 2080px) {
+  .expo-photo img {
+    height: 330px;
+  }
 }
 
 .expo-photo img:hover {
@@ -27,7 +32,17 @@
 }
 
 .expo-photo {
-  margin: 100px 0 0 180px;
-  padding: 10px;
+  padding: 100px 0 0 200px;
   cursor: none;
+}
+
+@media (max-width: 2080px) {
+  .expo-photo {
+    padding-top: 200px;
+  }
+}
+
+.expo,
+.col-4 {
+  margin-right: 100px;
 }
