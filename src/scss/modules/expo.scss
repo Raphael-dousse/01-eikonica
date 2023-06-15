@@ -17,9 +17,17 @@
   margin: 30px;
   gap: 40px;
   border-radius: 25px;
+  filter: blur(50px);
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.expo-photo img:hover {
+  filter: blur(0px);
 }
 
 .expo-photo {
   margin: 100px 0 0 180px;
   padding: 10px;
+  cursor: none;
 }
