@@ -25,12 +25,7 @@ body {
   line-height: 1.25;
   background: black;
   color: #ffffff;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-  cursor: none;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -42,6 +37,9 @@ a {
   text-align: center;
   transition-duration: 0.3s;
   transition-timing-function: ease-out;
+  color: inherit;
+  text-decoration: none;
+  cursor: none;
 }
 
 a:hover {
@@ -64,7 +62,7 @@ p {
 h1 {
   font-family: scandia-web, sans-serif;
   font-weight: 400;
-  font-size: 95px;
+  font-size: 195px;
 }
 
 h2 {
