@@ -4,7 +4,9 @@
 }
 
 .workshops p {
-  font-family: Scandia-Light;
+  font-family: scandia-web, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 55px;
   letter-spacing: -1.66px;
 }
@@ -57,7 +59,9 @@ svg {
   line-height: 1;
   cursor: none;
   .btn-content {
-    font-family: Scandia-Regular;
+    font-family: scandia-web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 30px;
     letter-spacing: -1.31px;
     font-size: 1em;

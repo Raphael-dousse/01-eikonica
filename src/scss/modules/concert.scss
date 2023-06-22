@@ -18,7 +18,9 @@
 }
 
 .concert a {
-  font-family: Scandia-Bold;
+  font-family: scandia-web, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 65px;
   letter-spacing: -1.58px;
   transition-duration: 0.2s;
@@ -109,7 +111,9 @@
 }
 
 .concert-text p {
-  font-family: Scandia-Regular;
+  font-family: scandia-web, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 65px;
   letter-spacing: -1.58px;
 }
